@@ -1,0 +1,70 @@
+// WAPTD Accept the Student Data And Print The Data 
+
+import java.util.Scanner;
+class StudentData 
+{
+	public static void main(String[] args) 
+	{
+		int sid;
+		byte age;
+		String name,gender;
+	    float hight,weight;
+		double cgpa;
+		char grade;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Eneter Your Student Id: ");
+		 
+		 sid=sc.nextInt();
+		 
+		 System.out.println("Eneter Your Name:");
+		 sc.nextLine();
+		 name=sc.nextLine();
+		 
+		 System.out.println("Eneter Your Age :");
+		 age=sc.nextByte();
+		 
+		 System.out.println("Eneter Your Gender:");
+		 sc.nextLine();
+		 gender=sc.nextLine();
+		 
+		 
+		
+		   
+		  System.out.println("Eneter Your hight:- ");
+		    hight = sc.nextFloat();
+			
+
+		   System.out.println("Eneter Your Weight:-");
+		   weight =sc.nextFloat();
+		   
+		   System.out.println("Eneter Your CGPA :");
+		   cgpa =sc.nextDouble();
+		   
+		   System.out.println("Eneter Your Greade :");
+		   grade=sc.next().charAt(0);
+		   
+		   
+		   
+		   
+		   System.out.println("Student ID:"+sid);
+		   
+		   System.out.println("Name:"+name);
+		   
+		    System.out.println("Age:"+age);
+			
+			System.out.println("Gender:"+ gender);
+			
+			 System.out.println("Hight:"+hight);
+			 
+			 System.out.println("Weight:"+ weight);
+			 
+			 System.out.println("CGPA:"+cgpa);
+			 
+			 System.out.println("Grade:"+grade);
+			
+			   
+		
+	}
+}

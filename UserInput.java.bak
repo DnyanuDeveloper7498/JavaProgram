@@ -1,0 +1,21 @@
+import  java.io.*;
+
+class UserInput 
+{
+	public static void main(String[] args) throw IOException
+	{
+
+    BufferedReader aa = new BufferedReader(new  InputStreamReader(System.in));
+		
+		
+	System.out.println("Eneter :-");
+	
+	  int a= Integer.parseInt(aa.readLine());
+		
+		
+		
+		System.out.println(a);
+	}
+		
+	
+}

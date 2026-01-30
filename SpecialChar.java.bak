@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+
+class SpecialChar 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Eneter any char:");
+		
+	     char ch = sc.next().charAt(0);
+		
+		String out = ( (ch >=32 && ch <=47) || (ch >=58 && ch<=64) || (ch >=123 && ch<=126)) ?
+			     
+		             (ch + "yes is a Special char ") : (ch + " Not a Special char ");
+					 
+	
+	     System.out.pritntln(out);
+		
+	}
+}

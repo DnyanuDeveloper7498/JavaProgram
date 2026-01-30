@@ -1,0 +1,26 @@
+class Var1 
+{
+	public static void main(String[] args) 
+	{
+		 String name;
+	     float cgpa;
+		 char grade;
+		 long phno;
+		 byte age;
+		 
+		 name="Dnyanu";
+		 cgpa=7.7;
+		 grade='A';
+		 phno=7498750247l;
+		 age=0;
+		 
+		 
+		 System.out.println(name);
+		 System.out.println(cgpa);
+		 System.out.println(grade);
+		 System.out.println(phno);
+		 System.out.println(age);
+		 
+		 
+	}
+}

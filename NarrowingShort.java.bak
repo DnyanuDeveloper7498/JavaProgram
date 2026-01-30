@@ -1,0 +1,25 @@
+class NarrowingShort 
+{
+	public static void main(String[] args) 
+	{
+	
+	   short s1=(short)44400;
+	   System.out.println(s1); // -21136 (int)
+	   
+	   short s2= (short)'e';
+	   System.out.println(s2); //101 (char)
+	   
+	   short s3 = (short) 455587l; // -3165 (long)
+	   System.out.println(s3);
+     
+	   short s4 =(short) 45.4f; 
+	   System.out.println(s4);
+	   
+	   short s5=(short) 4556.85;
+	   System.out.println(s5);
+
+
+
+
+	}
+}

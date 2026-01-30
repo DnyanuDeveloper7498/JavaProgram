@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+
+class NestedOp 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc= new Scanner(System.in);
+	
+		System.out.println("Eneter a User Check char:-");
+		
+		char ch = sc.next().charAt(0);
+				
+				    String op = (((ch>='A' && ch <='Z') || (ch>='a' && ch<='z'))) ?
+					((ch>='A' && ch <='Z') ? (ch + "Upper Case"):(ch+ "lower case")): 
+					
+				    ((ch>='0' && ch <='9')?(ch+"is a Digits") :(ch + "Special Char"));
+					
+		            System.out.println(op);
+		
+	}
+}

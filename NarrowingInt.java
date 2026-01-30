@@ -1,0 +1,21 @@
+class NarrowingInt 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+		int i1=(int)'A';
+		System.out.println(i1); // 65 (char)
+		
+		int i2=(int) 1508l;
+		System.out.println(i2); // 1508 (long)
+		
+		int i3 =(int) 16.99f; 
+		System.out.println(i3); // 16 (float)
+		
+		int i4 = (int) 589.15;
+		System.out.println(i4); //589 (double)
+		
+		
+	}
+}

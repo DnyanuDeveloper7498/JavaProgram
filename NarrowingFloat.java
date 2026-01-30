@@ -1,0 +1,10 @@
+class NarrowingFloat  
+{
+	public static void main(String[] args) 
+	{
+		float f = (float)155.666; // 155.666
+		System.out.println(f);
+		
+		
+	}
+}

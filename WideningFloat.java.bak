@@ -1,0 +1,22 @@
+class  WideningFloat
+{
+	public static void main(String[] args) 
+	{
+		
+		char ch='M';
+		System.out.println(ch); // M
+		
+          int i = ch;
+	     System.out.println(i); // 77
+	   
+	   long l = ch;
+	   System.out.println(l);// 77
+	   
+	   float f = ch;
+	   System.out.println(f); // 77.0
+	   
+	   double d = ch;
+	   System.out.println(d); // 77.0
+	   
+	}
+}

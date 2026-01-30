@@ -1,0 +1,23 @@
+
+import java.utile.Scanner;
+
+class UpperLower 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Eneter a char");
+		
+		char ch = sc.next().charAt(0);
+		
+		
+		String  out = ( ch >='A' && ch <='Z' || ch >='a' && ch<='z') ? ( (ch>='A' && ch <='Z')? 
+			        
+		             ( ch + " Upper Case  char"):( ch + "Lower case char")):
+				
+					   (ch + " Not Alphabate");
+			                  
+		System.out.println(out);
+	}
+}

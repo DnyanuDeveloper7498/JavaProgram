@@ -1,0 +1,9 @@
+class DataTypeOverflowLong 
+{
+	public static void main(String[] args) 
+	{
+		long l1 = (long)18446744073709551614l
+
+		System.out.println(l1);
+	}
+}

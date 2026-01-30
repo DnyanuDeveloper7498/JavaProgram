@@ -1,0 +1,21 @@
+//check Digit 
+
+import java.util.Scanner;
+
+class Digit 
+{
+	public static void main(String[] args) 
+	{
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Eneter a Number:-");
+	
+	    char ch =sc.next().charAt(0);
+	     
+		String out = (ch>='0' && ch<='9') ? (ch + "is a Digit") : (ch + " is a not Digit");
+	   
+	   System.out.println(out);
+	  
+	}
+}

@@ -1,0 +1,32 @@
+// check vowels yes or no
+
+import java.util.Scanner;
+
+class Vowel 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Eneter a any Char:-");
+		
+		char ch = sc.next().charAt(0);
+		
+        String output = ( ch=='A' || ch =='a' ||
+			             
+		                  ch=='E' || ch =='e' ||
+							 
+					      ch=='I' || ch =='i' ||
+						 
+						  ch=='O' || ch =='o' ||
+						
+						  ch=='U' || ch =='U' )?
+			
+		     (ch + " This char is Vowels"):
+			  
+			 (ch + " This char is Consonant");
+		
+		System.out.println(output);
+		
+	}
+}

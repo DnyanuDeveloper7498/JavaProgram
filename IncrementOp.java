@@ -1,0 +1,23 @@
+class IncrementOp 
+{
+	public static void main(String[] args) 
+	{
+		
+		int blance=200;
+		
+		//pre-Increment 
+		System.out.println(++blance); //201 
+		
+		// post- Increment
+		System.out.println(blance++); // 201
+		
+		System.out.println(++blance + blance++); //406
+		
+		System.out.println(blance++);//204
+		
+		System.out.println(++blance); //206
+		
+		
+		
+	}
+}
