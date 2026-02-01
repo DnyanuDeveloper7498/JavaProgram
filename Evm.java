@@ -72,6 +72,7 @@ class Evm
 		     System.out.println("CONG :" + cong);
 		     System.out.println("AAP :" + aap);
 		     System.out.println("MNS :" + mns);
+		     System.out.println("NOTA :" + nota);
 			 
 			  if (bjp>= cong && bjp>=aap && bjp>=mns && bjp>=nota)
 			  {
