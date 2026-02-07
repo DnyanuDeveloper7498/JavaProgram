@@ -1,29 +1,18 @@
-import java.util.Scanner;
-
 class Demo 
 {
-	
-	
-	public static void main(String[] args) 
-	{ 
+	public static void main(String [] args)
+	{
 		
-	   Scanner sc =new Scanner(System.in);
-	   
-
-       System.out.println("Eneter a Name :-");
-	   
-	     String name = sc.nextLine();
-		 
-		 if (name=="")
-		 {
-			 System.out.println("Plese Eneter Your Name ");
-			 
-		 }
-		 else 
-		{
-			 System.out.println("SuceessFull Login");
-		}
-	   
+	    double x = 10/0.0;
+		
+		double y = Double.POSITIVE_INFINITY;
+		
+		double b = Double.POSITIVE_INFINITY;
+		
+		System.out.println(b);
+		
+		
+		
 		
 	}
 }
