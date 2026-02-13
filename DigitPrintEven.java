@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-class NumberPrintEven 
+class DigitPrintEven
 {
 	public static void main(String[] args) 
 	{
