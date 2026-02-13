@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-class DigitPrintEven 
+class NumberPrintEven 
 {
 	public static void main(String[] args) 
 	{
@@ -9,20 +9,20 @@ class DigitPrintEven
 		Scanner sc = new Scanner(System.in);
 		
 	    System.out.print("Eneter a Digit:");
-	    int digit= sc.nextInt();
+	    int num= sc.nextInt();
 	    
-		int even;
+		int last;
 		
-		while (digit>0)
+		while (num>0)
 		{
-			even=digit%10;
+			last=num%10;
 			
-			if (even%2==0)
+			if (last%2==0)
 			{
-				System.out.println(even);
+				System.out.println(last);
 			}
 			
-	      digit/=10;
+	      num/=10;
 		}		
 		
 	}
